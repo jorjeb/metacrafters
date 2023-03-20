@@ -17,6 +17,7 @@
     "hardhat": "^2.13.0",
     "hardhat-gas-reporter": "^1.0.8",
     "hardhat-spdx-license-identifier": "^2.1.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
     "solidity-coverage": "^0.8.1",
     "ts-node": "^10.9.1",
     "typechain": "^8.1.0",
