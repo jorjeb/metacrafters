@@ -14,7 +14,7 @@ describe('ERC20 contract testing', function () {
     ;[owner, addr1, addr2] = await ethers.getSigners()
     const ERC20 = await ethers.getContractFactory('ERC20')
     erc20 = await ERC20.deploy()
-    erc20.mint(totalSupply)
+    erc20.connect(owner).mint(totalSupply)
   })
 
   it('Should assign the total supply of tokens to msg.sender', async function () {
